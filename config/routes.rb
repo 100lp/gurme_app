@@ -2,6 +2,8 @@ GurmeApp::Application.routes.draw do
   match '/contact', :to => 'pages#contact'
   match '/about',   :to => 'pages#about'
   match '/kofe',    :to => 'pages#kofe'
+  match '/chaj',    :to => 'pages#chaj'
+  match '/franchajzing',    :to => 'pages#franchajzing'
 
   root :to => 'pages#home'
 

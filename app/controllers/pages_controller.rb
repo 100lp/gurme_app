@@ -11,4 +11,10 @@ class PagesController < ApplicationController
   def kofe
   end
 
+  def franchajzing
+  end
+
+  def chaj
+  end
+
 end

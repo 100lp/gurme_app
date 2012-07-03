@@ -1,11 +1,14 @@
 <header>
   <% logo = image_tag("logo.png", :alt => "Sample App") %>
   <%= link_to logo, root_path %>
-  <div id="cssmenu">
+  <div id="mymenu">
     <ul >
       <li ><%= menu_link "О компании", root_path %></li>
       <li ><%= menu_link "Кофе", kofe_path %></li>
-      <li ><%= menu_link "Франчайзинг кафе", about_path %></li>
+      <li ><%= menu_link "Чай", chaj_path %></li>
+      <li ><%= menu_link "Контакты", contact_path %></li>
+      <li ><%= menu_link "Франчайзинг кафе", franchajzing_path %></li>
+
   </div>
  
 </header>
