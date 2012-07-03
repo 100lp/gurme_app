@@ -324,16 +324,18 @@ form.new_micropost textarea {
   -moz-border-radius: 5px;  
   text-shadow: 0 1px 1px rgba(0,0,0, .3); 
 }
-#cssmenu a:hover {background: #000; color: #fff;}
-#cssmenu a:active { 
+
+.active {
   background:  url("/images/overlay.png") repeat-x scroll 0 -40px #666666; 
-  color: #444; 
+  color: #444 !important;
   border-top: solid 0px #f8f8f8; 
   -webkit-box-shadow: 0 1px 1px rgba(0,0,0, .2); 
   -moz-box-shadow: 0 1px 1px rgba(0,0,0, .2); 
   box-shadow: 0 1px 1px rgba(0,0,0, .2); 
-  text-shadow: 0 1px 0 rgba(255,255,255, 1); }
-#cssmenu li:hover > a {
+  text-shadow: 0 1px 0 rgba(255,255,255, 1) !important; 
+}
+#cssmenu a:hover {background: #000; color: #fff;}
+#cssmenu .active a, #cssmenu li:hover > a {
   background:  url("/images/overlay.png") repeat-x scroll 0 -40px #666666; 
   color: #444; 
   border-top: solid 0px #f8f8f8; 
