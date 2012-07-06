@@ -25,14 +25,14 @@
 
 #mymenu ul {
   margin: 0; 
-  padding: 7px 6px 0; 
+  padding: 7px 0px 0; 
   line-height: 100%; 
   border-radius: 1em; 
   font: normal .8em/1.5em Arial, Helvetica, sans-serif; 
   border-radius: 5px; 
 }
 #mymenu li {
-  margin: 0 5px; 
+  margin: 0px; 
   padding: 0 0 8px; 
   float: left; 
   position: relative; 
@@ -105,12 +105,12 @@ header {
 }
 
 header img {
-  padding: 0 0 0 5px;
+
 }
 
 #left {
   float: left;
-  min-width: 285px;
+  min-width: 235px;
   text-align: center;
   padding:20px 0 0 0;
 }

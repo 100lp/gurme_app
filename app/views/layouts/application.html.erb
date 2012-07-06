@@ -4,6 +4,43 @@
 
     <%= csrf_meta_tag %>
     <%= render 'layouts/stylesheets' %>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+  <script src="javascripts/slides.min.jquery.js"></script>
+  <script>
+    $(function(){
+      $('#slides').slides({
+        preload: true,
+        preloadImage: 'img/loading.gif',
+        play: 5000,
+        pause: 2500,
+        hoverPause: true,
+        animationStart: function(current){
+          $('.caption').animate({
+            bottom:-35
+          },100);
+          if (window.console && console.log) {
+            // example return of current slide number
+            console.log('animationStart on slide: ', current);
+          };
+        },
+        animationComplete: function(current){
+          $('.caption').animate({
+            bottom:0
+          },200);
+          if (window.console && console.log) {
+            // example return of current slide number
+            console.log('animationComplete on slide: ', current);
+          };
+        },
+        slidesLoaded: function() {
+          $('.caption').animate({
+            bottom:0
+          },200);
+        }
+      });
+    });
+  </script>
   </head>
   <body>
       <%= render 'layouts/header' %>
@@ -17,9 +54,9 @@
       </br>
         <img src="../images/akcii_01.png" />
       </div>
-      <section class="round">
+
         <%= yield %>
-      </section>
+
     </div>
       <%= render 'layouts/footer' %>
   </body>
