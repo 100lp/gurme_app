@@ -17,4 +17,7 @@ class PagesController < ApplicationController
   def chaj
   end
 
+  def kofejni
+  end
+
 end
