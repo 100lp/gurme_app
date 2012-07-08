@@ -1,3 +1,30 @@
+.content {float: right;}
+.dop-content {margin: 20px 0 0 0;}
+.td-dop {
+  background:  url("/images/dop_border.png") no-repeat; 
+  width: 236px;
+  height: 128px;
+  padding: 3px;
+}
+.td-dop_02 {
+  background:  url("/images/dop_border.png") no-repeat top center; 
+  width: 219px;
+  height: 128px;
+  padding: 3px;
+  text-align:center;
+}
+.td-dop_03 {
+  background:  url("/images/dop_border.png") no-repeat top right; 
+  width: 219px;
+  height: 128px;
+  padding: 3px;
+  text-align:right;
+}
+.tr-dop {width:730px;}
+.table-dop {
+
+}
+
 #cssmenu .active {
   background:  url("/images/overlay.png") repeat-x scroll 0 -40px #8B5A2B; 
   color: #444 !important;
@@ -88,6 +115,7 @@
 
 .container {
   width: 980px;
+  background: url("/images/poloska.jpg") repeat-y scroll 28px top transparent;
 }
 
 body {
@@ -113,7 +141,6 @@ header img {
   min-width: 235px;
   text-align: center;
   padding:20px 0 0 0;
-  background: url("/images/poloska.jpg") repeat-y scroll center top transparent;
   min-height: 500px;
 }
 
