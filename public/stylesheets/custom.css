@@ -1,11 +1,15 @@
-.content {float: right;}
-.dop-content {margin: 20px 0 0 0;}
+.content {}
+.dop-content {margin: 20px 0 0 0; float: right;}
 .td-dop {
   background:  url("/images/dop_border.png") no-repeat; 
   width: 236px;
   height: 128px;
   padding: 3px;
 }
+
+
+.td-empty {width:75px; padding: 10px;}
+.td-dop a {color:;}
 .td-dop_02 {
   background:  url("/images/dop_border.png") no-repeat top center; 
   width: 219px;
@@ -22,6 +26,7 @@
 }
 .tr-dop {width:730px;}
 .table-dop {
+  width:706px;
 
 }
 
@@ -115,7 +120,7 @@
 
 .container {
   width: 980px;
-  background: url("/images/poloska.jpg") repeat-y scroll 28px top transparent;
+  background: url("/images/poloska.jpg") repeat-y scroll 29px top transparent;
 }
 
 body {
@@ -126,6 +131,7 @@ header {
   padding-top: 0px;
   width: 980px;
   margin:0 auto;
+  background: url("/images/poloska.jpg") repeat-y scroll 29px 25px transparent;
  }
 
 .bg {
@@ -140,7 +146,7 @@ header img {
   float: left;
   min-width: 235px;
   text-align: center;
-  padding:20px 0 0 0;
+  padding:50px 0 0 0;
   min-height: 500px;
 }
 

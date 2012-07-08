@@ -22,19 +22,19 @@
 
 
 .photosgallery-vertical{
-	width:730px;
-	height:413px;
-	background: url("/images/main_border.png") no-repeat;
-
+	width:706px;
+	height:470px;
+	background: url("/images/border_main_700.png") no-repeat;
+	float: right;
 }
 
 /* Nav */
-.photosgallery-vertical .sliderkit-nav{top:0;left:624px;width:95px;height:100%; }
+.photosgallery-vertical .sliderkit-nav{top:0;left:600px;width:95px;height:100%; }
 .photosgallery-vertical .sliderkit-nav-clip{left:7px;}
 .photosgallery-vertical .sliderkit-nav-clip ul li{margin:0;padding:0 0 5px 0;}
 .photosgallery-vertical .sliderkit-nav-clip ul li a{display:block;width:75px;height:50px;overflow:hidden;padding:3px;}
 .photosgallery-vertical .sliderkit-nav-clip ul li.sliderkit-selected a{padding:0;border:3px solid #c5dbe6;}
-.photosgallery-vertical .sliderkit-nav-clip ul li img{width:100px;height:75px;margin-bottom:-3px;}
+.photosgallery-vertical .sliderkit-nav-clip ul li img{width:74px;height:48px; border: 2px solid#fff;}
 
 /* Nav buttons */
 .photosgallery-vertical .sliderkit-nav .sliderkit-nav-btn{position:absolute;left:0;}
@@ -59,11 +59,11 @@
 .photosgallery-vertical .sliderkit-go-next{top:0;right:0;}
 
 /* Panel */
-.photosgallery-vertical .sliderkit-panel{top:3px;left:3px;width:724px;height:408px;}
+.photosgallery-vertical .sliderkit-panel{top:3px;left:3px;width:700px;height:464px;}
 
 /* Panel > Textbox */
 .photosgallery-vertical .sliderkit-panel .sliderkit-panel-textbox{bottom:0;left:0;height:85px;width:500px;}
-.photosgallery-vertical .sliderkit-panel .sliderkit-panel-text{height:65px;padding:10px 15px 10px 115px;font-size:0.9em;color:#fff;}
+.photosgallery-vertical .sliderkit-panel .sliderkit-panel-text{height:65px;padding:10px 15px 10px 15px;font-size:14px;color:#fff;}
 .photosgallery-vertical .sliderkit-panel .sliderkit-panel-text h4{height:auto;margin:0 0 7px;line-height:1.1em;font-size:1.1em;font-weight:bold;border:none;}
-.photosgallery-vertical .sliderkit-panel .sliderkit-panel-overlay{height:85px;width:500px;background:#000;opacity:0.6;}
+.photosgallery-vertical .sliderkit-panel .sliderkit-panel-overlay{height:85px;width:706px;background:#000;opacity:0.6;}
 
