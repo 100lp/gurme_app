@@ -113,6 +113,8 @@ header img {
   min-width: 235px;
   text-align: center;
   padding:20px 0 0 0;
+  background: url("/images/poloska.jpg") repeat-y scroll center top transparent;
+  min-height: 500px;
 }
 
 section {
@@ -143,7 +145,7 @@ nav {
   background-color: white;
   padding: 0 0.7em;
   white-space: nowrap;
-  margin: 105px 0 0;
+
 }
 
 nav ul {
@@ -198,7 +200,6 @@ a.signup_button {
 
 footer {
   text-align: center;
-  margin-top: 10px;
   width: 980px;
   margin-left: auto;
   margin-right: auto;

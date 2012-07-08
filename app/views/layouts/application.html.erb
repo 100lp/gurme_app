@@ -4,29 +4,31 @@
 
     <%= csrf_meta_tag %>
     <%= render 'layouts/stylesheets' %>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
     <!--<script type="text/javascript" src="javascripts/external/jquery-1.6.2.min.js"></script>-->
     
     <!-- jQuery Plugin scripts -->
     <script type="text/javascript" src="javascripts/external/jquery.easing.1.3.min.js"></script>
     <script type="text/javascript" src="javascripts/external/jquery.mousewheel.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+
   <script type="text/javascript" src="javascripts/sliderkit/jquery.sliderkit.1.9.2.pack.js"></script> 
     <script type="text/javascript" src="javascripts/sliderkit/jquery.sliderkit.1.9.2.pack.js"></script>   
     <script type="text/javascript" src="javascripts/sliderkit/addons/sliderkit.delaycaptions.1.1.pack.js"></script>
     <script type="text/javascript" src="javascripts/sliderkit/addons/sliderkit.counter.1.0.pack.js"></script>
     <script type="text/javascript" src="javascripts/sliderkit/addons/sliderkit.timer.1.0.pack.js"></script>
     <script type="text/javascript" src="javascripts/sliderkit/addons/sliderkit.imagefx.1.0.pack.js"></script>
+
     <script type="text/javascript">
-      $(window).load(function(){ //$(window).load() must be used instead of $(document).ready() because of Webkit compatibility       
-      // Photo gallery > Vertical
+    $(document).ready(function() {
         $(".photosgallery-vertical").sliderkit({
-          circular:true,
-          mousewheel:true,
-          shownavitems:4,
-          verticalnav:true,
-          navclipcenter:true,
-          auto:false
+            autospeed:     7000,
+            circular:      true,
+            mousewheel:    false,
+            shownavitems:  6,
+            verticalnav:   true,
+            navclipcenter: true,
         });
+    });
     </script>
 
   </head>
