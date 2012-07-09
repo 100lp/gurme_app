@@ -6,7 +6,10 @@
   float: right;
   right: 288px;
   top: 148px;
+}
 
+#body-bg {
+    background: url("/images/pattern.jpg") repeat-x scroll 0 120px transparent; 
 }
 .content {}
 .dop-content {margin: 20px 0 0 0; float: right;}
