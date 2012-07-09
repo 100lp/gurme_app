@@ -1,3 +1,13 @@
+.welcome {
+  background:  url("/images/welcome.png") no-repeat; 
+  position: absolute;
+  width: 375px;
+  height: 47px;
+  float: right;
+  right: 288px;
+  top: 148px;
+
+}
 .content {}
 .dop-content {margin: 20px 0 0 0; float: right;}
 .td-dop {
@@ -115,7 +125,7 @@
 #mymenu li.active a {background: #000; color: #e7e5e5;}
 
 
-#mymenu {float: right; margin: 90px 0 0 0;}
+#mymenu {float: right; margin: 94px 0 0 0;}
 
 
 .container {
