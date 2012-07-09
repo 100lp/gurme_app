@@ -1,15 +1,13 @@
 .welcome {
-  background:  url("/images/welcome.png") no-repeat; 
+  background:  url("/images/welcome_02.png") no-repeat; 
   position: absolute;
-  width: 375px;
+  width: 980px;
   height: 47px;
-  float: right;
-  right: 288px;
   top: 148px;
 }
 
 #body-bg {
-    background: url("/images/pattern.jpg") repeat-x scroll 0 120px transparent; 
+  background: url("/images/shapka.png") repeat-x scroll center top transparent;
 }
 .content {}
 .dop-content {margin: 20px 0 0 0; float: right;}
@@ -137,7 +135,7 @@
 }
 
 body {
-  background: url("/images/shapka.png") repeat-x scroll center top transparent;
+  background: url("/images/pattern_04.jpg") repeat scroll transparent; 
 }
 
 header {
