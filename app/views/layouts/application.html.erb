@@ -4,7 +4,7 @@
 
     <%= csrf_meta_tag %>
     <%= render 'layouts/stylesheets' %>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/tabs/jquery-1.7.2.min.js"></script>
     <!--<script type="text/javascript" src="javascripts/external/jquery-1.6.2.min.js"></script>-->
     
     <!-- jQuery Plugin scripts -->
@@ -17,7 +17,7 @@
     <script type="text/javascript" src="javascripts/sliderkit/addons/sliderkit.counter.1.0.pack.js"></script>
     <script type="text/javascript" src="javascripts/sliderkit/addons/sliderkit.timer.1.0.pack.js"></script>
     <script type="text/javascript" src="javascripts/sliderkit/addons/sliderkit.imagefx.1.0.pack.js"></script>
-
+    <script type="text/javascript" src="javascripts/tabs/jquery-ui-1.8.22.custom.min.js"></script>
     <script type="text/javascript">
     $(document).ready(function() {
         $(".photosgallery-vertical").sliderkit({
@@ -31,6 +31,24 @@
     });
     </script>
 
+
+    <script type="text/javascript">
+      $(function(){
+
+        // Accordion
+        $("#accordion").accordion({ header: "h3" });
+
+        // Tabs
+        $('#tabs').tabs();
+
+        //hover states on the static widgets
+        $('#dialog_link, ul#icons li').hover(
+          function() { $(this).addClass('ui-state-hover'); },
+          function() { $(this).removeClass('ui-state-hover'); }
+        );
+
+      });
+    </script>
   </head>
   <body>
   <div id="body-bg">
@@ -53,7 +71,7 @@
         <%= yield %>
 
     </div>
-      <%= render 'layouts/footer' %>
+
   </div>
   </body>
 </html>

@@ -1,3 +1,8 @@
+h1 {color: #339933; text-align: center; font-weight: bold; font-size:18px;}
+h2 {color: #339933; text-align: center; font-weight: bold; font-size:16px;}
+.price {color: #339933; text-align: center; font-weight: bold; font-size:14px;}
+.text {text-align:justify;}
+.text2 {text-align:justify; width:698px; padding: 0 0 0 3px; font-size:13px; color: #291B0D;}
 .welcome {
   background:  url("/images/welcome_02.png") no-repeat; 
   position: absolute;
@@ -11,13 +16,13 @@
 }
 .content {}
 .dop-content {margin: 20px 0 0 0; float: right;}
+.dop-content2 {margin: 0px 0 0 0; float: right; width: 706px;}
 .td-dop {
   background:  url("/images/dop_border.png") no-repeat; 
   width: 236px;
   height: 128px;
   padding: 3px;
 }
-
 
 .td-empty {width:75px; padding: 10px;}
 .td-dop a {color:;}
@@ -38,7 +43,6 @@
 .tr-dop {width:730px;}
 .table-dop {
   width:706px;
-
 }
 
 #cssmenu .active {
@@ -82,7 +86,6 @@
   list-style: none; 
 }
 
-
 #mymenu a {
   background:  url("/images/menu_b_01.png") no-repeat scroll 0 0; 
   font-size: 14px;
@@ -95,7 +98,6 @@
   text-align: center;
   line-height: 30px;
 }
-
 
 #mymenu a b {
   background:  url("/images/menu_b_04.png") no-repeat scroll right top; 
