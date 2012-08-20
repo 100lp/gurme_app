@@ -345,7 +345,7 @@ html>/**/body .highslide-gallery ul img {
 	margin-top: 5px;
 	height: 11px;
 	width: 11px;
-	background: url(graphics/resize.gif) no-repeat;
+	background: url("/graphics/resize.gif") no-repeat;
 }
 .highslide-footer .highslide-resize span {
 	display: none;
