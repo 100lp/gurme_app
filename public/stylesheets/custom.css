@@ -3,6 +3,7 @@ h2 {color: #339933; text-align: center; font-weight: bold; font-size:16px;}
 .price {color: #339933; text-align: center; font-weight: bold; font-size:14px;}
 .text {text-align:justify;}
 .text2 {text-align:justify; width:698px; padding: 0 0 0 3px; font-size:13px; color: #291B0D;}
+.imgprice {text-align: center; padding: 10px 0 5px 0; }
 .welcome {
   background:  url("/images/welcome_02.png") no-repeat; 
   position: absolute;

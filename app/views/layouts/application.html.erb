@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-
     <%= csrf_meta_tag %>
     <%= render 'layouts/stylesheets' %>
     <script type="text/javascript" src="javascripts/tabs/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="javascripts/highslide/highslide-full.js"></script>
     <!--<script type="text/javascript" src="javascripts/external/jquery-1.6.2.min.js"></script>-->
     
     <!-- jQuery Plugin scripts -->
@@ -49,6 +49,37 @@
 
       });
     </script>
+
+<script type="text/javascript">
+
+hs.graphicsDir = 'javascripts/graphics/';     
+hs.transitions = ['expand'];                  
+hs.dimmingOpacity = 0.5;                     
+hs.align = 'center';                  
+hs.outlineType = false,
+hs.showCredits = false,
+hs.addSlideshow({
+  // slideshowGroup: 'group1',
+  interval: 3000,
+  repeat: false,
+  useControls: true,
+  fixedControls: true,
+  overlayOptions: {
+    opacity: 1,
+    position: 'bottom center',
+    hideOnMouseOut: true
+  }
+
+});
+// Optional: a crossfade transition looks good with the slideshow
+hs.transitions = ['expand', 'crossfade'];
+</script>
+<script type="text/javascript">
+    // override Highslide settings here
+    // instead of editing the highslide.js file
+    hs.graphicsDir = 'javascripts/graphics/';
+</script>
+
   </head>
   <body>
   <div id="body-bg">
