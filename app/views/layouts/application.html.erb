@@ -30,34 +30,27 @@
         });
     });
     </script>
-
-
     <script type="text/javascript">
       $(function(){
-
         // Accordion
         $("#accordion").accordion({ header: "h3" });
-
         // Tabs
         $('#tabs').tabs();
-
         //hover states on the static widgets
         $('#dialog_link, ul#icons li').hover(
           function() { $(this).addClass('ui-state-hover'); },
           function() { $(this).removeClass('ui-state-hover'); }
         );
-
       });
     </script>
-
 <script type="text/javascript">
-
-hs.graphicsDir = 'javascripts/graphics/';     
-hs.transitions = ['expand'];                  
-hs.dimmingOpacity = 0.5;                     
+hs.graphicsDir = '/graphics/';     
+hs.transitions = ['expand', 'crossfade'];                 
+hs.dimmingOpacity = 0.1;                     
 hs.align = 'center';                  
-hs.outlineType = false,
+hs.outlineType = 'drop-shadow',
 hs.showCredits = false,
+hs.fadeInOut = true;
 hs.addSlideshow({
   // slideshowGroup: 'group1',
   interval: 3000,
@@ -71,13 +64,9 @@ hs.addSlideshow({
   }
 
 });
-// Optional: a crossfade transition looks good with the slideshow
-hs.transitions = ['expand', 'crossfade'];
-</script>
-<script type="text/javascript">
-    // override Highslide settings here
-    // instead of editing the highslide.js file
-    hs.graphicsDir = 'javascripts/graphics/';
+
+
+
 </script>
 
   </head>

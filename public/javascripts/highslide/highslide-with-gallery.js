@@ -1,6 +1,6 @@
 /** 
  * Name:    Highslide JS
- * Version: 4.1.12 (2011-03-28)
+ * Version: 4.1.13 (2011-10-06)
  * Config:  default +slideshow +positioning +transitions +viewport +thumbstrip
  * Author:  Torstein Hønsi
  * Support: www.highslide.com/support
@@ -247,17 +247,17 @@ css: function(el, prop) {
 
 getPageSize : function () {
 	var d = document, w = window, iebody = d.compatMode && d.compatMode != 'BackCompat' 
-		? d.documentElement : d.body;
+		? d.documentElement : d.body,
+		ieLt9 = hs.ie && (hs.uaVersion < 9 || typeof pageXOffset == 'undefined');
 	
-	var width = hs.ieLt9 ? iebody.clientWidth : 
+	var width = ieLt9 ? iebody.clientWidth : 
 			(d.documentElement.clientWidth || self.innerWidth),
-		height = hs.ieLt9 ? iebody.clientHeight : self.innerHeight;
-	
+		height = ieLt9 ? iebody.clientHeight : self.innerHeight;
 	hs.page = {
 		width: width,
 		height: height,		
-		scrollLeft: hs.ieLt9 ? iebody.scrollLeft : pageXOffset,
-		scrollTop: hs.ieLt9 ? iebody.scrollTop : pageYOffset
+		scrollLeft: ieLt9 ? iebody.scrollLeft : pageXOffset,
+		scrollTop: ieLt9 ? iebody.scrollTop : pageYOffset
 	};
 	return hs.page;
 },
@@ -372,6 +372,18 @@ dim : function(exp) {
                 visibility: 'visible',
 				opacity: 0
 			}, hs.container, true);
+			
+		if (/(Android|iPad|iPhone|iPod)/.test(navigator.userAgent)) {
+			var body = document.body;
+			function pixDimmerSize() {
+				hs.setStyles(hs.dimmer, {
+					width: body.scrollWidth +'px',
+					height: body.scrollHeight +'px'
+				});
+			}
+			pixDimmerSize();
+			hs.addEventListener(window, 'resize', pixDimmerSize);
+		}
 	}
 	hs.dimmer.style.display = '';
 
@@ -464,8 +476,7 @@ keyHandler : function(e) {
 		case 13: // Enter
 			op = 0;
 	}
-	if (op !== null) {
-		hs.removeEventListener(document, window.opera ? 'keypress' : 'keydown', hs.keyHandler);
+	if (op !== null) {if (op != 2)hs.removeEventListener(document, window.opera ? 'keypress' : 'keydown', hs.keyHandler);
 		if (!hs.enableKeyListener) return true;
 		
 		if (e.preventDefault) e.preventDefault();
@@ -2317,13 +2328,17 @@ doFullExpand : function () {
 		if (this.fullExpandLabel) hs.discardElement(this.fullExpandLabel);
 		
 		this.focus();
-		var xSize = this.x.size;
-		this.resizeTo(this.x.full, this.y.full);
-		
-		var xpos = this.x.pos - (this.x.size - xSize) / 2;
-		if (xpos < hs.marginLeft) xpos = hs.marginLeft;
-		
-		this.moveTo(xpos, this.y.pos);
+		var xSize = this.x.size,
+        	ySize = this.y.size;
+        this.resizeTo(this.x.full, this.y.full);
+       
+        var xpos = this.x.pos - (this.x.size - xSize) / 2;
+        if (xpos < hs.marginLeft) xpos = hs.marginLeft;
+       
+        var ypos = this.y.pos - (this.y.size - ySize) / 2;
+        if (ypos < hs.marginTop) ypos = hs.marginTop;
+       
+        this.moveTo(xpos, ypos);
 		this.doShowHide('hidden');
 	
 	} catch (e) {
@@ -2539,6 +2554,7 @@ hs.Thumbstrip = function(slideshow) {
 				pI = i;
 			hs.createElement('a', {
 				href: a.href,
+				title: a.title,
 				onclick: function() {
 					if (/highslide-active-anchor/.test(this.className)) return false;
 					hs.getExpander(this).focus();
@@ -2593,10 +2609,12 @@ hs.addEventListener(window, 'load', hs.ready);
 hs.addEventListener(document, 'ready', function() {
 	if (hs.expandCursor || hs.dimmingOpacity) {
 		var style = hs.createElement('style', { type: 'text/css' }, null, 
-			document.getElementsByTagName('HEAD')[0]);
+			document.getElementsByTagName('HEAD')[0]), 
+			backCompat = document.compatMode == 'BackCompat';
 			
-		function addRule(sel, dec) {		
-			if (hs.ie && hs.uaVersion < 9) {
+		
+		function addRule(sel, dec) {
+			if (hs.ie && (hs.uaVersion < 9 || backCompat)) {
 				var last = document.styleSheets[document.styleSheets.length - 1];
 				if (typeof(last.addRule) == "object") last.addRule(sel, dec);
 			} else {
@@ -2610,7 +2628,7 @@ hs.addEventListener(document, 'ready', function() {
 		if (hs.expandCursor) addRule ('.highslide img', 
 			'cursor: url('+ hs.graphicsDir + hs.expandCursor +'), pointer !important;');
 		addRule ('.highslide-viewport-size',
-			hs.ie && (hs.uaVersion < 7 || document.compatMode == 'BackCompat') ?
+			hs.ie && (hs.uaVersion < 7 || backCompat) ?
 				'position: absolute; '+
 				'left:'+ fix('scrollLeft') +
 				'top:'+ fix('scrollTop') +
