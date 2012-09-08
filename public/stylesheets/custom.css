@@ -20,6 +20,7 @@ h2 {color: #339933; text-align: center; font-weight: bold; font-size:16px;}
 .content {}
 .dop-content {margin: 20px 0 0 0; float: right;}
 .dop-content2 {margin: 0px 0 0 0; float: right; width: 706px;}
+.dop-content2 img {border:2px solid #FFFFD6;}
 .dop-content3 {margin: 10px 0 0 40px; float: left;}
 .td-dop {
   background:  url("/images/dop_border.png") no-repeat; 

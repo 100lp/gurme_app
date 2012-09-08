@@ -20,4 +20,10 @@ class PagesController < ApplicationController
   def kofejni
   end
 
+  def kofedlyavendinga
+  end
+
+  def zelenyjkofe
+  end
+
 end
