@@ -5,6 +5,7 @@ h2 {color: #339933; text-align: center; font-weight: bold; font-size:16px;}
 .text2 {text-align:justify; width:698px; padding: 0 0 0 3px; font-size:12px; color: #8B7E66; font-family: Verdana;}
 .text3 {text-align:left;  padding: 0 0 0 3px; font-size:12px; color: #8B7E66; font-family: Verdana;}
 .email {font-size: 14px;}
+.under {text-decoration: underline;}
 .imgprice {text-align: center; padding: 10px 0 5px 0; }
 .welcome {
   background:  url("/images/welcome_02.png") no-repeat; 
@@ -22,6 +23,8 @@ h2 {color: #339933; text-align: center; font-weight: bold; font-size:16px;}
 .dop-content2 {margin: 0px 0 0 0; float: right; width: 706px;}
 .dop-content2 img {border:2px solid #FFFFD6;}
 .dop-content3 {margin: 10px 0 0 40px; float: left;}
+.dop-content4 {margin: 0px 0 0 0; float: right; width: 706px;}
+.dop-content4 a:hover {color:#ff0000;}
 .td-dop {
   background:  url("/images/dop_border.png") no-repeat; 
   width: 236px;
@@ -108,7 +111,6 @@ h2 {color: #339933; text-align: center; font-weight: bold; font-size:16px;}
 
 #mymenu a b {
   background:  url("/images/menu_b_04.png") no-repeat scroll right top; 
-
   color: #fff; 
   text-decoration: none; 
   display: block;
