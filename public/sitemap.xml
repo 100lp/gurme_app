@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://www.gurme.ru/</loc>
+  <lastmod>2012-04-17T10:35:38+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.gurme.ru/kofe.html</loc>
+  <lastmod>2012-04-17T10:35:41+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.gurme.ru/kontakty.html</loc>
+  <lastmod>2012-04-17T10:35:39+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.gurme.ru/franchajzing.html</loc>
+  <lastmod>2012-04-17T10:35:40+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.gurme.ru/zelenyj-kofe.html</loc>
+  <lastmod>2012-04-17T10:35:40+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.gurme.ru/chaj.html</loc>
+  <lastmod>2012-04-17T10:35:40+00:00</lastmod>
+</url>
+
+</urlset>
