@@ -53,8 +53,9 @@ h2 {color: #339933; text-align: center; font-weight: bold; font-size:16px;}
 .table-dop {
   width:706px;
 }
-.td_kofejni {vertical-align:top; padding:0 10px 0 0; margin: 0; text-align:left; width:240px;}
+.td_kofejni {vertical-align:top; padding:0 10px 0 0; margin: 0; text-align:left; width:;}
 .td_kofejni img {border: 2px solid #fff;}
+.p_kof {text-decoration: none; font-weight: bold;}
 
 #cssmenu .active {
   background:  url("/images/overlay.png") repeat-x scroll 0 -40px #8B5A2B; 

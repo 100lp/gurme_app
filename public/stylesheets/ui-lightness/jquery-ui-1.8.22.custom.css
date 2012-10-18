@@ -25,7 +25,7 @@
 .ui-widget .ui-widget { font-size: 1em; }
 .ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button { font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif; font-size: 1em; }
 .ui-widget-content { border: 1px solid #dddddd; background: url(images/tabs_03.png) repeat; color: #333333; }
-.ui-widget-content a { color: #333333; }
+.ui-widget-content a {}
 .ui-widget-header { border: 0px solid #e78f08; background: ; font-weight: bold; }
 .ui-widget-header a { color: #ffffff; }
 
