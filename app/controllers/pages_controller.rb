@@ -32,7 +32,7 @@ class PagesController < ApplicationController
     @title = "Кофейни Гурме - адреса и телефоны"
   end
 
-  def kofedlyavendinga
+  def vending
     @title = "Кофе для вендинга - оптовые поставки."
   end
 
