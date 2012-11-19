@@ -42,4 +42,9 @@ class PagesController < ApplicationController
     @description = "Продажа зеленого кофе робусты оптом из Уганды, Африка."
   end
 
+  def dostavkakofeichaya
+    @title = "Продажа зеленого кофе оптом, робуста."
+    @keywords = "проадаж зеленого кофе, продажа робусты, зеленый кофе оптом"
+    @description = "Продажа зеленого кофе робусты оптом из Уганды, Африка."
+  end
 end
