@@ -29,7 +29,7 @@ class PagesController < ApplicationController
   end
 
   def kofejni
-    @title = "Кофейни Гурме - адреса и телефоны"
+    @title = "Кофейни Гурме - адреса и телефоны."
   end
 
   def vending
@@ -49,8 +49,13 @@ class PagesController < ApplicationController
   end
 
   def vakansii
-    @title = "вакансия барист в кафе"
+    @title = "Вакансия барист в кафе."
     @keywords = "вакансия барист, барист в кафе, барист в кофейню спб санкт-птербург"
     @description = "Открыта вакансия бариста в кафе, компания Кофейный Дом Гурме, в Санкт-Петербурге"
+  end
+  def reklama
+    @title = "Реклама в кафе, кофейнях."
+    @keywords = "реклама в кафе, реклама в кофейнях, спб, санкт-петербург"
+    @description = "Предоставляем различные виды рекламы в наших кофейнях в Санкт-Петербурге."
   end
 end

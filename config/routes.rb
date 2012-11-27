@@ -9,6 +9,7 @@ GurmeApp::Application.routes.draw do
   match '/zelenyj-kofe',    :to => 'pages#zelenyjkofe'
   match '/dostavka-kofe-i-chaya',    :to => 'pages#dostavkakofeichaya'
   match '/vakansii',    :to => 'pages#vakansii'
+  match '/reklama',    :to => 'pages#reklama'
 
   root :to => 'pages#home'
 
