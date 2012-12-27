@@ -9,6 +9,8 @@ h3 {
   padding-bottom: 10px;
   font-weight: bold;
 }
+.shet4ik {padding: 20px 0 0; margin: 50px 0 0; border-top: 1px dashed #8B7E66;}
+.shet4ik img {border: none !important; box-shadow: none !important;}
 .price {color: #339933; text-align: center; font-weight: bold; font-size:14px;}
 .text {text-align:justify;}
 .text-right {float: right; text-align: left; width: 450px;}
@@ -278,7 +280,7 @@ footer {
   width: 980px;
   margin-left: auto;
   margin-right: auto;
-  height:150px;
+  height:25px;
 }
 
 footer nav {
