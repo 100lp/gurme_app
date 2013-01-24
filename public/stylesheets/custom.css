@@ -9,6 +9,9 @@ h3 {
   padding-bottom: 10px;
   font-weight: bold;
 }
+td.zaglushka {width:14px;}
+.news .highslide img {border: 1px solid #fff !important;}
+.news .highslide img:hover {border: 1px solid #7b5841 !important;}
 .shet4ik {padding: 20px 0 0; margin: 50px 0 0; border-top: 1px dashed #8B7E66;}
 .shet4ik img {border: none !important; box-shadow: none !important;}
 .price {color: #339933; text-align: center; font-weight: bold; font-size:14px;}
