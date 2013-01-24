@@ -3,7 +3,7 @@ require 'bundler/capistrano'
 server "5.9.59.102", :web, :app, :db, :primary => true
 set :user, :nikita
 set :use_sudo, false
-set :deploy_to, '~'
+set :deploy_to, "/var/rails/nikita"
 set :scm, :git
 set :repository, 'git://github.com/100lp/gurme_app.git'
 set :deploy_via, :remote_cache
