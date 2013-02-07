@@ -1,3 +1,59 @@
+* {
+  margin: 0;
+  padding: 0
+  }
+
+.entry {display: none;}
+.post {
+  padding: 0;
+  position: relative;
+  background: none;
+  margin-bottom: 20px;
+  border: none;
+  }
+.inactive {
+  color: #333;
+  }
+
+.title img {float: left; margin: 0 15px 0 0;}
+.title h3 {  
+  text-decoration: underline;
+/*  border-bottom: 1px dashed #7b5841;*/
+}
+.post .title {
+  position: relative;
+  height: 160px;
+
+  }
+
+.inactive .title h3 a {
+  color: #bbb;
+  }
+.title p {
+  font-size: 12px;
+  font-style: normal;
+  margin: 0;
+  }
+.post .title span {
+  position: absolute;
+  right: 0;
+  top: 90%;
+  cursor: pointer;
+  width: 14px;
+  height: 14px;
+  background: url("/images/trigger.gif") no-repeat left bottom;
+  display: block;
+  font-size: 0;
+  }
+#content {width: 700px;}
+#content .inactive .title span {
+  background-position: left top;
+  }
+#content .post .entry {
+  padding: 10px 0;
+  }
+
+.dop-content h1 {text-align: left; padding-bottom: 5px;}
 h1 {color: #339933; text-align: center; font-weight: bold; font-size:18px;}
 h2 {color: #339933; text-align: center; font-weight: bold; font-size:16px;}
 h3 {
@@ -9,7 +65,15 @@ h3 {
   padding-bottom: 10px;
   font-weight: bold;
 }
+
+.vk span {background:  url("/images/vkontakte_g.png") no-repeat; padding: 21px 0 0 33px;}
+.vk span:hover {background:  url("/images/vkontakte_b.png") no-repeat; }
+.fb span {background:  url("/images/facebook_g.png") no-repeat; padding: 21px 0 0 33px; }
+.fb span:hover {background:  url("/images/facebook_b.png") no-repeat; }
+.tw span {background:  url("/images/twitter_g.png") no-repeat; padding: 21px 0 0 33px; margin: 0 14px;}
+.tw span:hover {background:  url("/images/twitter_b.png") no-repeat; }
 td.zaglushka {width:14px;}
+p.news_date {color:#999; font-size:12px; font-style: normal; font-weight: normal;}
 .news .highslide img {border: 1px solid #fff !important;}
 .news .highslide img:hover {border: 1px solid #7b5841 !important;}
 .shet4ik {padding: 20px 0 0; margin: 50px 0 0; border-top: 1px dashed #8B7E66;}

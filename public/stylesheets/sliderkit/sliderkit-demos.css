@@ -62,8 +62,14 @@
 .photosgallery-vertical .sliderkit-panel{top:3px;left:3px;width:700px;height:464px;}
 
 /* Panel > Textbox */
-.photosgallery-vertical .sliderkit-panel .sliderkit-panel-textbox{bottom:0;left:0;height:85px;width:650px;}
-.photosgallery-vertical .sliderkit-panel .sliderkit-panel-text{height:65px;padding:10px 15px 10px 15px;font-size:14px;color:#fff;}
+.photosgallery-vertical .sliderkit-panel .sliderkit-panel-textbox{bottom:0;left:0;height:85px;width:700px;background: url("/images/sliderkit/text_overlay.png") repeat;}
+.photosgallery-vertical .sliderkit-panel .sliderkit-panel-text {
+	height:65px;
+	width: 580px;
+	padding:10px 15px 10px 15px;
+	font-size:14px;
+	color:#fff;
+}
 .photosgallery-vertical .sliderkit-panel .sliderkit-panel-text h4{height:auto;margin:0 0 7px;line-height:1.1em;font-size:1.1em;font-weight:bold;border:none;}
 .photosgallery-vertical .sliderkit-panel .sliderkit-panel-overlay{height:0px;width:706px;background:#000;opacity:0.6;}
 
