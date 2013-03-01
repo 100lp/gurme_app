@@ -6,10 +6,9 @@ set :deploy_to, '/var/rails/nikita'
 set :user, 'nikita'
 set :use_sudo, false
 ssh_options[:forward_agent] = true
-set :rails_env, :production
 
 set :deploy_via, :remote_cache
-set :repository,  "git@github.com:100lp/gurme_app.git"
+set :repository,  "https://github.com/100lp/gurme_app.git"
 set :scm, :git
 
 set :normalize_asset_timestamps, false
