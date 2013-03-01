@@ -10,7 +10,7 @@ gem 'unicorn'
 
 # Deploy with Capistrano
 gem 'capistrano'
-gem 'therubyracer', :platforms => :ruby
+# gem 'therubyracer', :platforms => :ruby
 
 # To use debugger (ruby-debug for Ruby 1.8.7+, ruby-debug19 for Ruby 1.9.2+)
 # gem 'ruby-debug'
@@ -18,7 +18,7 @@ gem 'therubyracer', :platforms => :ruby
 
 # Bundle the extra gems:
 # gem 'bj'
-gem 'nokogiri'
+# gem 'nokogiri'
 # gem 'sqlite3-ruby', :require => 'sqlite3'
 # gem 'aws-s3', :require => 'aws/s3'
 
