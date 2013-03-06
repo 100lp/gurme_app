@@ -16,13 +16,18 @@
   }
 
 .title img {float: left; margin: 0 15px 0 0;}
-.title h3 {  
+.title h3 {
   text-decoration: underline;
 /*  border-bottom: 1px dashed #7b5841;*/
 }
+
+.news_block {
+  height: 160px;
+  margin-bottom: 15px;
+}
 .post .title {
   position: relative;
-  height: 160px;
+
 
   }
 
@@ -37,7 +42,7 @@
 .post .title span {
   position: absolute;
   right: 0;
-  top: 90%;
+  top: 100%;
   cursor: pointer;
   width: 14px;
   height: 14px;
@@ -57,11 +62,11 @@
 h1 {color: #339933; text-align: center; font-weight: bold; font-size:18px;}
 h2 {color: #339933; text-align: center; font-weight: bold; font-size:16px;}
 h3 {
-  text-align: left; 
-  font-size:18px; 
-  color: #7b5841; 
-  font-family: arial; 
-  margin: 0; 
+  text-align: left;
+  font-size:18px;
+  color: #7b5841;
+  font-family: arial;
+  margin: 0;
   padding-bottom: 10px;
   font-weight: bold;
 }
@@ -80,6 +85,7 @@ p.news_date {color:#999; font-size:12px; font-style: normal; font-weight: normal
 .shet4ik img {border: none !important; box-shadow: none !important;}
 .price {color: #339933; text-align: center; font-weight: bold; font-size:14px;}
 .text {text-align:justify;}
+.text_span {font-weight:bold;}
 .text-right {float: right; text-align: left; width: 450px;}
 .text-right p {font-size: 14px; line-height: 18px; color: #333;}
 .text-right ul{margin:10px 0 0; font-size: 14px; list-style: none; padding:0;}
@@ -89,7 +95,7 @@ p.news_date {color:#999; font-size:12px; font-style: normal; font-weight: normal
 .under {text-decoration: underline;}
 .imgprice {text-align: center; padding: 10px 0 5px 0; }
 .welcome {
-  background:  url("/images/welcome_02.png") no-repeat; 
+  background:  url("/images/welcome_02.png") no-repeat;
   position: absolute;
   width: 980px;
   height: 47px;
@@ -107,8 +113,8 @@ p.news_date {color:#999; font-size:12px; font-style: normal; font-weight: normal
 .dop-content3 {margin: 10px 0 0 40px; float: left;}
 .dop-content4 {margin: 0px 0 0 0; float: right; width: 706px;}
 .dop-content4 a:hover {color:#ff0000;}
-.ui-content { 
-  background: url("/images/tabs_03.png") repeat scroll 0 0 transparent; 
+.ui-content {
+  background: url("/images/tabs_03.png") repeat scroll 0 0 transparent;
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
   border: 1px solid #DDDDDD;
@@ -119,7 +125,7 @@ p.news_date {color:#999; font-size:12px; font-style: normal; font-weight: normal
 }
 .kofmenu {margin: 0px 0 0 0; float: right; width: 655px;}
 .td-dop {
-  background:  url("/images/dop_border.png") no-repeat; 
+  background:  url("/images/dop_border.png") no-repeat;
   width: 236px;
   height: 128px;
   padding: 3px;
@@ -128,14 +134,14 @@ p.news_date {color:#999; font-size:12px; font-style: normal; font-weight: normal
 .td-empty {width:75px; padding: 10px;}
 .td-dop a {color:;}
 .td-dop_02 {
-  background:  url("/images/dop_border.png") no-repeat top center; 
+  background:  url("/images/dop_border.png") no-repeat top center;
   width: 219px;
   height: 128px;
   padding: 3px;
   text-align:center;
 }
 .td-dop_03 {
-  background:  url("/images/dop_border.png") no-repeat top right; 
+  background:  url("/images/dop_border.png") no-repeat top right;
   width: 219px;
   height: 128px;
   padding: 3px;
@@ -150,81 +156,81 @@ p.news_date {color:#999; font-size:12px; font-style: normal; font-weight: normal
 .p_kof {text-decoration: none; font-weight: bold;}
 
 #cssmenu .active {
-  background:  url("/images/overlay.png") repeat-x scroll 0 -40px #8B5A2B; 
+  background:  url("/images/overlay.png") repeat-x scroll 0 -40px #8B5A2B;
   color: #444 !important;
-  border-top: solid 0px #f8f8f8; 
-  -webkit-box-shadow: 0 1px 1px rgba(0,0,0, .2); 
-  -moz-box-shadow: 0 1px 1px rgba(0,0,0, .2); 
-  box-shadow: 0 1px 1px rgba(0,0,0, .2); 
-  text-shadow: 0 1px 0 rgba(255,255,255, 1) !important; 
+  border-top: solid 0px #f8f8f8;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0, .2);
+  -moz-box-shadow: 0 1px 1px rgba(0,0,0, .2);
+  box-shadow: 0 1px 1px rgba(0,0,0, .2);
+  text-shadow: 0 1px 0 rgba(255,255,255, 1) !important;
 }
 
 #mymenu .active {
-  background:  url("/images/menu_g_01.png") no-repeat scroll 0 0; 
+  background:  url("/images/menu_g_01.png") no-repeat scroll 0 0;
   color: #fff !important;
 
-  text-shadow: 0 1px 0 #777 !important; 
+  text-shadow: 0 1px 0 #777 !important;
 }
 #mymenu .active b {
-  background:  url("/images/menu_g_04.png") no-repeat scroll right top; 
+  background:  url("/images/menu_g_04.png") no-repeat scroll right top;
   color: #fff !important;
-  text-shadow: 0 1px 0 #777 !important; 
+  text-shadow: 0 1px 0 #777 !important;
   height: 31px;
-  padding:0 15px 0px 5px; 
+  padding:0 15px 0px 5px;
   float: left;
 }
 
 #mymenu ul {
-  margin: 0; 
-  padding: 7px 0px 0; 
-  line-height: 100%; 
-  border-radius: 1em; 
-  font: normal .8em/1.5em Arial, Helvetica, sans-serif; 
-  border-radius: 5px; 
+  margin: 0;
+  padding: 7px 0px 0;
+  line-height: 100%;
+  border-radius: 1em;
+  font: normal .8em/1.5em Arial, Helvetica, sans-serif;
+  border-radius: 5px;
 }
 #mymenu li {
-  margin: 0px; 
-  padding: 0 0 8px; 
-  float: left; 
-  position: relative; 
-  list-style: none; 
+  margin: 0px;
+  padding: 0 0 8px;
+  float: left;
+  position: relative;
+  list-style: none;
 }
 
 #mymenu a {
-  background:  url("/images/menu_b_01.png") no-repeat scroll 0 0; 
+  background:  url("/images/menu_b_01.png") no-repeat scroll 0 0;
   font-size: 14px;
-  color: #fff; 
-  text-decoration: none; 
+  color: #fff;
+  text-decoration: none;
   display: block;
   height: 31px;
-  padding:  0 0 0 13px; 
+  padding:  0 0 0 13px;
   float: left;
   text-align: center;
   line-height: 30px;
 }
 
 #mymenu a b {
-  background:  url("/images/menu_b_04.png") no-repeat scroll right top; 
-  color: #fff; 
-  text-decoration: none; 
+  background:  url("/images/menu_b_04.png") no-repeat scroll right top;
+  color: #fff;
+  text-decoration: none;
   display: block;
   height: 31px;
-  padding:0 15px 0px 5px; 
+  padding:0 15px 0px 5px;
   float: left;
 
 }
 
 #mymenu a:hover {
-  background:  url("/images/menu_g_01.png") no-repeat scroll 0 0; 
+  background:  url("/images/menu_g_01.png") no-repeat scroll 0 0;
 
 }
 
 #mymenu b:hover {
-  background:  url("/images/menu_g_04.png") no-repeat scroll right top; 
+  background:  url("/images/menu_g_04.png") no-repeat scroll right top;
   color: #fff;
- 
+
   height: 31px;
-  padding:0 15px 0px 5px; 
+  padding:0 15px 0px 5px;
   float: left;
 
 }
@@ -240,7 +246,7 @@ p.news_date {color:#999; font-size:12px; font-style: normal; font-weight: normal
 }
 
 body {
-  background: url("/images/pattern_04.jpg") repeat scroll transparent; 
+  background: url("/images/pattern_04.jpg") repeat scroll transparent;
 }
 
 header {
@@ -492,89 +498,89 @@ form.new_micropost textarea {
 
 
 #cssmenu ul {
-  margin: 0; 
-  padding: 7px 6px 0; 
-  background: url("/images/overlay.png") repeat-x scroll 0 -110px #7D7D7D; 
-  line-height: 100%; 
-  border-radius: 1em; 
-  font: normal .8em/1.5em Arial, Helvetica, sans-serif; 
-  -webkit-border-radius: 5px; 
-  -moz-border-radius: 5px; 
-  border-radius: 5px; 
-  -webkit-box-shadow: 0 1px 3px rgba(0,0,0, .4); 
+  margin: 0;
+  padding: 7px 6px 0;
+  background: url("/images/overlay.png") repeat-x scroll 0 -110px #7D7D7D;
+  line-height: 100%;
+  border-radius: 1em;
+  font: normal .8em/1.5em Arial, Helvetica, sans-serif;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0, .4);
   -moz-box-shadow: 0 1px 3px rgba(0,0,0, .4);}
 #cssmenu li {
-  margin: 0 5px; 
-  padding: 0 0 8px; 
-  float: left; 
-  position: relative; 
-  list-style: none; 
+  margin: 0 5px;
+  padding: 0 0 8px;
+  float: left;
+  position: relative;
+  list-style: none;
 }
 #cssmenu a {
-  font-weight: bold; 
+  font-weight: bold;
   font-size: 14px;
-  color: #e7e5e5; 
-  text-decoration: none; 
-  display: block; 
-  padding:  8px 20px; 
-  margin: 0; 
-  border-radius: 5px; 
-  -webkit-border-radius: 5px; 
-  -moz-border-radius: 5px;  
-  text-shadow: 0 1px 1px rgba(0,0,0, .3); 
+  color: #e7e5e5;
+  text-decoration: none;
+  display: block;
+  padding:  8px 20px;
+  margin: 0;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  text-shadow: 0 1px 1px rgba(0,0,0, .3);
 }
 
 
 #cssmenu a:hover {background: #000; color: #fff;}
 #cssmenu .active a, #cssmenu li:hover > a {
-  background:  url("/images/overlay.png") repeat-x scroll 0 -40px #666666; 
-  color: #444; 
-  border-top: solid 0px #f8f8f8; 
-  -webkit-box-shadow: 0 1px 1px rgba(0,0,0, .2); 
-  -moz-box-shadow: 0 1px 1px rgba(0,0,0, .2); 
-  box-shadow: 0 1px 1px rgba(0,0,0, .2); 
-  text-shadow: 0 1px 0 rgba(255,255,255, 1); 
+  background:  url("/images/overlay.png") repeat-x scroll 0 -40px #666666;
+  color: #444;
+  border-top: solid 0px #f8f8f8;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0, .2);
+  -moz-box-shadow: 0 1px 1px rgba(0,0,0, .2);
+  box-shadow: 0 1px 1px rgba(0,0,0, .2);
+  text-shadow: 0 1px 0 rgba(255,255,255, 1);
 }
 #cssmenu ul ul li:hover a,
 #cssmenu li:hover li a {
-  background: none; 
-  border: none; 
-  color: #666; 
-  -webkit-box-shadow: none; 
+  background: none;
+  border: none;
+  color: #666;
+  -webkit-box-shadow: none;
   -moz-box-shadow: none;
 }
 #cssmenu ul ul a:hover {
-  background: #8f8f8f url("/images/overlay.png") repeat-x 0 -100px !important; 
-  color: #fff !important; 
-  -webkit-border-radius: 5px; 
-  -moz-border-radius: 5px; 
-  border-radius: 5px; 
+  background: #8f8f8f url("/images/overlay.png") repeat-x 0 -100px !important;
+  color: #fff !important;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
   text-shadow: 0 1px 1px rgba(0,0,0, .1);
 }
 #cssmenu li:hover > ul {display: block;}
 #cssmenu ul ul {
-  display: none; 
-  margin: 0; 
-  padding: 0; 
-  width: 185px; 
-  position: absolute; 
-  top: 40px; 
-  left: 0; 
-  background: #ddd url("/images/overlay.png") repeat-x 0 0; 
-  border: solid 1px #b4b4b4; -webkit-border-radius: 5px; 
-  -moz-border-radius: 5px; border-radius: 5px; 
-  -webkit-box-shadow: 0 1px 3px rgba(0,0,0, .3); 
-  -moz-box-shadow: 0 1px 3px rgba(0,0,0, .3); 
+  display: none;
+  margin: 0;
+  padding: 0;
+  width: 185px;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  background: #ddd url("/images/overlay.png") repeat-x 0 0;
+  border: solid 1px #b4b4b4; -webkit-border-radius: 5px;
+  -moz-border-radius: 5px; border-radius: 5px;
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0, .3);
+  -moz-box-shadow: 0 1px 3px rgba(0,0,0, .3);
   box-shadow: 0 1px 3px rgba(0,0,0, .3);
 }
 #cssmenu ul ul li {float: none; margin: 0; padding: 3px; }
 #cssmenu ul ul a {font-weight: normal; text-shadow: 0 1px 0 #fff; }
 #cssmenu ul:after {
-  content: '.'; 
-  display: block; 
-  clear: both; 
-  visibility: hidden; 
-  line-height: 0; 
+  content: '.';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
   height: 0;
 }
 * html #cssmenu  ul {height: 1%;}
