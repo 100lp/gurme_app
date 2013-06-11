@@ -6,13 +6,7 @@
 .vending_content {}
 
 #vending_img img {
-  box-shadow: 0 0 1px #888888;
-  -webkit-box-shadow: 0 0 1px #888888;
-  -o-box-shadow: 0 0 1px #888888;
-  -moz-box-shadow: 0 0 1px #888888;
-  -khtml-box-shadow: 0 0 1px #888888;
   width: 703px;
-  border: 1px solid #FFFFFF;
 }
 
 .vending_table {
@@ -157,9 +151,19 @@ p.news_date {color:#999; font-size:12px; font-style: normal; font-weight: normal
 }
 .content {}
 .dop-content {margin: 20px 0 0 0; float: right;}
-.dop-content img {border:1px solid #FFF; box-shadow: 0 0 2px #888888;}
+.dop-content img {
+  border:1px solid #FFF;
+  box-shadow: 0 0 2px #888888;
+}
 .dop-content2 {margin: 0px 0 0 0; float: right; width: 706px;}
-.dop-content2 img {border:2px solid #FFFFD6;}
+.dop-content2 img {
+   box-shadow: 0 0 1px #888888;
+  -webkit-box-shadow: 0 0 1px #888888;
+  -o-box-shadow: 0 0 1px #888888;
+  -moz-box-shadow: 0 0 1px #888888;
+  -khtml-box-shadow: 0 0 1px #888888;
+  border: 1px solid #FFFFFF;
+}
 .dop-content3 {margin: 10px 0 0 40px; float: left;}
 .dop-content4 {margin: 0px 0 0 0; float: right; width: 706px;}
 .dop-content4 a:hover {color:#ff0000;}
