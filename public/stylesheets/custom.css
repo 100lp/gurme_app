@@ -159,6 +159,7 @@ p.news_date {color:#999; font-size:12px; font-style: normal; font-weight: normal
 .dop-content2 {margin: 0px 0 0 0; float: right; width: 706px;}
 
 #kofe .dop-content2 img { border: none;}
+#kofe .dop-content2 .imgprice img {border: 1px solid #FFFFFF;}
 .dop-content2 img {
    box-shadow: 0 0 1px #888888;
   -webkit-box-shadow: 0 0 1px #888888;
