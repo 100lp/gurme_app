@@ -3,6 +3,7 @@
   padding: 0
   }
 
+li#for_vending {background: none; border: none; padding: 10px 0;}
 .vending_content {}
 
 #vending_img img {
