@@ -57,6 +57,11 @@ li#for_vending {background: none; border: none; padding: 10px 0;}
   height: 160px;
   margin-bottom: 15px;
 }
+
+.big {
+  height: 260px;
+}
+
 .post .title {
   position: relative;
 
