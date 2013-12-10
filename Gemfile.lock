@@ -32,6 +32,7 @@ GEM
     builder (2.1.2)
     erubis (2.6.6)
       abstract (>= 1.0.0)
+    haml (3.1.7)
     i18n (0.5.0)
     json (1.7.5)
     mail (2.2.19)
@@ -73,4 +74,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  haml (~> 3.1.2)
   rails (= 3.0.9)
