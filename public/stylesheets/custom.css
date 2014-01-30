@@ -10,6 +10,14 @@ li#for_vending {background: none; border: none; padding: 10px 0;}
   width: 703px;
 }
 
+.after-tabs {
+  font-size: 18px;
+  margin-top: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+
 .vending_table {
   border: 1px solid #ddd;
   border-collapse: collapse;
