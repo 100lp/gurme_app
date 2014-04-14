@@ -297,7 +297,9 @@ p.news_date {color:#999; font-size:12px; font-style: normal; font-weight: normal
   background:  url("/images/menu_g_01.png") no-repeat scroll 0 0;
 
 }
-
+#mymenu a:hover b {
+  background:  url("/images/menu_g_04.png") no-repeat scroll right top;
+}
 #mymenu b:hover {
   background:  url("/images/menu_g_04.png") no-repeat scroll right top;
   color: #fff;
