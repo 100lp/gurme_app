@@ -1,8 +1,8 @@
 require 'bundler/capistrano'
 
-server '109.234.154.252', :app, :web, :db, primary: true
-set :deploy_to, '/var/rails/nikita'
-set :user, 'nikita'
+server '188.93.19.195', :app, :web, :db, primary: true
+set :deploy_to, '/var/www/gurme.ru/public_html'
+set :user, 'root'
 set :use_sudo, false
 ssh_options[:forward_agent] = true
 
