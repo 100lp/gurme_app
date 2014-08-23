@@ -349,6 +349,31 @@ header img {
   min-height: 500px;
 }
 
+#left a {
+  color: #2CB732;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  font-style: italic;
+
+}
+
+#left a div {
+  /*background: url("/images/banners/akcii_shop_text.png") no-repeat;*/
+  background: #FFEBB7;
+  height: 51px;
+  padding-top: 6px;  
+}
+
+#left a div span {
+  display: block;
+  color: #9F4900;
+}
+
+.green_coffee {
+  padding-top: 16px !important;
+}
+
 section {
   margin-top: 1em;
   font-size: 120%;
