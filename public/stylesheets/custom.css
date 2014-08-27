@@ -171,6 +171,7 @@ p.news_date {color:#999; font-size:12px; font-style: normal; font-weight: normal
   box-shadow: 0 0 2px #888888;
 }
 .dop-content2 {margin: 0px 0 0 0; float: right; width: 706px;}
+.dop-content2 #tabs a {text-decoration: none;}
 
 #kofe .dop-content2 img { border: none;}
 #kofe .dop-content2 a img {border: 1px solid #FFFFFF; }
@@ -226,6 +227,7 @@ p.news_date {color:#999; font-size:12px; font-style: normal; font-weight: normal
   width:706px;
 }
 .td_kofejni {vertical-align:top; padding:0 10px 0 0; margin: 0; text-align:left; width:;}
+.td_kofejni a {text-decoration: underline !important;}
 .td_kofejni img {border: 2px solid #fff;}
 .td_kofejni span {color: #00B800;}
 .p_kof {text-decoration: none; font-weight: bold;}
