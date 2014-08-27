@@ -359,10 +359,9 @@ header img {
 }
 
 #left a div {
-  /*background: url("/images/banners/akcii_shop_text.png") no-repeat;*/
-  background: #FFEBB7;
+  background: url("/images/akcii.png") no-repeat center;
   height: 51px;
-  padding-top: 6px;  
+  padding-top: 12px;  
 }
 
 #left a div span {
