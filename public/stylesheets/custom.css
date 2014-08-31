@@ -325,6 +325,13 @@ p.news_date {color:#999; font-size:12px; font-style: normal; font-weight: normal
   background: url("/images/poloska.jpg") repeat-y scroll 29px top transparent;
 }
 
+.container a img {
+  border: 1px solid white;
+  box-shadow: 0 0 2px #888;
+  -moz-box-shadow: 0 0 2px #888;
+  -o-box-shadow: 0 0 2px #888;
+}
+
 body {
   background: url("/images/pattern_04.jpg") repeat scroll transparent;
 }
