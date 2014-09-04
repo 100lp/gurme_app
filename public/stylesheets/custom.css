@@ -198,6 +198,17 @@ p.news_date {color:#999; font-size:12px; font-style: normal; font-weight: normal
   font-family: Trebuchet MS,Tahoma,Verdana,Arial,sans-serif;
   color: #333333;
 }
+
+.ui-content aside {
+  overflow: hidden;
+}
+.ui-content aside div {
+  float: left;
+}
+.ui-content aside div:first-child {
+  margin-right: 25px;
+}
+
 .kofmenu {margin: 0px 0 0 0; float: right; width: 655px; text-align: right;}
 .kofmenu img {width: 90px;}
 .td-dop {
