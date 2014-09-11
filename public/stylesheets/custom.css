@@ -130,7 +130,12 @@ p.news_date {color:#999; font-size:12px; font-style: normal; font-weight: normal
 .shet4ik {padding: 20px 0 0; margin: 50px 0 0; border-top: 1px dashed #8B7E66;}
 .shet4ik img {border: none !important; box-shadow: none !important;}
 .price {color: #339933; text-align: center; font-weight: bold; font-size:14px;}
-.pricekofe {margin-bottom: 10px; display: block; text-decoration: underline; text-align: center; font-weight: bold; font-size: 16px;}
+.pricekofe {
+  margin: 20px 0; 
+  display: block; text-decoration: underline; 
+  text-align: left; font-weight: bold; 
+}
+
 .text {text-align:justify;}
 .text_span {font-weight:bold;}
 .text-right {float: right; text-align: left; width: 450px;}
@@ -172,7 +177,7 @@ p.news_date {color:#999; font-size:12px; font-style: normal; font-weight: normal
   box-shadow: 0 0 2px #888888;
 }
 .dop-content2 {margin: 0px 0 0 0; float: right; width: 706px;}
-.dop-content2 #tabs a {text-decoration: none;}
+.dop-content2 #tabs a {}
 
 #kofe .dop-content2 img { border: none;}
 #kofe .dop-content2 a img {border: 1px solid #FFFFFF; }

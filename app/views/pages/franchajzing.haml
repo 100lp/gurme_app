@@ -74,9 +74,13 @@
             %div
               %img{:src => "../images/present.png"}
               %br
-              = link_to 'Скачать презентацию', '/Presentacia_GURME.pdf', target: '_blank'
+              = link_to '/Presentacia_GURME.pdf', target: '_blank' do
+                %i.fa.fa-download
+                  Скачать презентацию
             %div
               %img{:src => "../word_small.png"}
               %br
-              = link_to 'Скачать анкету', '/anketa_gurme.doc', target: '_blank'
+              = link_to '/anketa_gurme.doc', target: '_blank' do
+                %i.fa.fa-download
+                  Скачать анкету
     = render 'layouts/footer'
