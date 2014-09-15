@@ -1,0 +1,18 @@
+%header
+  #logo
+    - logo = image_tag("logo_03.png", :alt => "Кофейный Дом Гурме")
+    = link_to logo, root_path
+  #mymenu
+    .telefon
+      %span
+        +7 (812) 930 16 50
+      %span
+        +7 (812) 956 59 00 
+    %ul
+      %li= menu_link "О компании", root_path
+      %li= menu_link "Кофе", kofe_path
+      %li= menu_link "Чай", chaj_path
+      %li= menu_link "Вендинг", vending_path
+      %li= menu_link "Кофейни", kofejni_path
+      %li= menu_link "Франчайзинг кафе", franchajzing_path
+      %li= menu_link "Контакты", contact_path

@@ -213,7 +213,7 @@ p.news_date {color:#999; font-size:12px; font-style: normal; font-weight: normal
   border: 1px solid #FFFFFF;
 }
 .dop-content2 a.highslide > img {width: 148px; height: 125px;}
-.dop-content3 {margin: 10px 0 0 40px; float: left;}
+.dop-content3 {margin: 10px 0 0 40px; float: left; width: 700px;}
 .dop-content4 {margin: 0px 0 0 0; float: right; width: 706px;}
 .dop-content4 a:hover {color:#ff0000;}
 .ui-content {
@@ -299,6 +299,7 @@ p.news_date {color:#999; font-size:12px; font-style: normal; font-weight: normal
 
 #mymenu ul {
   margin: 0;
+  clear: both;
   padding: 7px 0px 0;
   line-height: 100%;
   border-radius: 1em;
@@ -356,7 +357,7 @@ p.news_date {color:#999; font-size:12px; font-style: normal; font-weight: normal
 #mymenu li.active a {background: #000; color: #e7e5e5;}
 
 
-#mymenu {float: right; margin: 94px 0 0 0;}
+#mymenu { overflow: hidden; margin: 0; float: right;}
 
 
 .container {
@@ -379,9 +380,27 @@ header {
   padding-top: 0px;
   width: 980px;
   margin:0 auto;
+  overflow: hidden;
   background: url("/images/poloska.jpg") repeat-y scroll 29px 25px transparent;
  }
 
+header #logo {
+  float: left;
+}
+
+header .telefon {
+  text-align: right;
+  float: right;
+  background: rgba(255, 255, 255, 0.8);
+  margin: 18px 0 18px 0;
+  border-radius: 4px;
+  padding: 10px;
+  color: #7b5841;
+  font-weight: bold;
+}
+header .telefon span {
+  display: block;
+}
 .bg {
   width: 100%;
 }
