@@ -68,12 +68,6 @@
             %img{alt: "Highslide JS", height: "74px", src: "images/news/rostov_04_s.jpg", title: "Click to enlarge", width: "74px"}
 
       .news_block
-        %p.news_date 28.04.2014
-        %h3 Поздравляем Вас с весной!
-        %img{src: "images/news/vesna.jpg", width: "220px"}
-        %p
-          Просим принять во внимание, что в связи с чередой праздников доставка возможна 6,7,8 мая и далее с 12 мая в обычном режиме.
-      .news_block
         %p.news_date 17.03.2014
         %h3 Интернет-магазин "Кофейный Дом Гурме" с доставкой!
         %img{src: "images/news/dostavka.jpg", width: "220px", style: 'margin-bottom: 50px'}
@@ -93,6 +87,11 @@
           %br
           %a{href: 'http://www.gurmeshop.ru/', target: '_blank'}
             www.gurmeshop.ru
+
+      %p{style: "float: right;"} Все нвости
+
+
+    .entry
       .news_block
         %p.news_date 27.02.2014
         %h3 Приближается 8 Марта!
@@ -118,11 +117,6 @@
           %br
           Убедительно просим принять во внимание череду праздничных дней и заранее спланировать Ваши заказы.
           Счастья, здоровья и процветания!!!
-
-      %p{style: "float: right;"} Все нвости
-
-
-    .entry
       .news_block
         %p.news_date 03.12.2013
         %h3 Закрытие кофейни на Владимирском
@@ -150,155 +144,3 @@
           %img{alt: "Highslide JS", height: "74px", src: "images/bv_03_s.jpg", title: "Click to enlarge", width: "74px"}
         %a.highslide{href: "images/kof/vlad_700_03.jpg", onclick: "return hs.expand(this, { slideshowGroup: 'gallery-v' } )"}
           %img{alt: "Highslide JS", height: "74px", src: "images/kof/kofejni_vlad_03.jpg", title: "Click to enlarge", width: "74px"}
-      .news_block
-        %p.news_date 27.11.2013
-        %h3 Скидка на чай "Жасминовый шар"!
-        %a.highslide{href: "images/jasmin.jpg", onclick: "return hs.expand(this, { slideshowGroup: 'gallery03' } )"}
-          %img{alt: "Highslide JS", src: "images/jasmin.jpg", title: "Click to enlarge", width: "220px"}
-        %p
-          В кофейнях
-          %a{href: "/kofejni#tabs-2", target: "_blank"} Невский пр., 48
-          и
-          %a{href: "/kofejni#tabs-3", target: "_blank"} пр. Художников, 14
-          %br
-          %br
-          Только в преддверии нового года скидка 15% на шедевр чайного искусства - вязаный чай "Жасминовый шар".
-          %br
-          %br
-          При заваривании из маленького шарика вырастет настоящая цветочная композиция, распускающаяся целым фейерверком цветов: оранжевой хризантемой, розовым клевером и колечком из цветков жасмина.
-          %br
-      .news_block
-        %p.news_date 21.11.2013
-        %h3 Бокал вина в подарок!
-        %img{alt: "Highslide JS", src: "images/bokal.jpg", title: "Click to enlarge", width: "220px"}/
-        %p
-          В кофейнях
-          %a{href: "/kofejni#tabs-2", target: "_blank"} Невский пр., 48
-          и
-          %a{href: "/kofejni#tabs-3", target: "_blank"} пр. Художников, 14
-          при заказе второго блюда бокал вкусного вина Вы получаете в подарок!
-          %br
-      .news_block
-        %p.news_date 21.11.2013
-        %h3 Завтраки и обеды в ГУРМЕ!
-        %img{alt: "Highslide JS", src: "images/cezar.jpg", title: "Click to enlarge", width: "220px"}
-        %p
-          В кофейнях
-          %a{href: "/kofejni#tabs-2", target: "_blank"} Невский пр., 48
-          и
-          %a{href: "/kofejni#tabs-3", target: "_blank"} пр. Художников, 14
-          Вы можете позавтракать с 10:00 до 13:00 и свкусно пообедать до 16:00. Бизнес-ланчи ресторанного уровня от 199 руб.!
-          %br
-      -# .news_block
-      -#   %p.news_date 15.11.2013
-      -#   %h3 Зайди и согрейся!
-      -#   %a.highslide{href: "images/alcohol.jpg", onclick: "return hs.expand(this, { slideshowGroup: 'gallery01' } )"}
-      -#     %img{alt: "Highslide JS", src: "images/alcohol_small.jpg", title: "Click to enlarge", width: "220px"}
-      -#   %p
-      -#     Обещают похолодание! В кофейнях на
-      -#     %a{href: "/kofejni#tabs-2", target: "_blank"} Невском пр.
-      -#     и
-      -#     %a{href: "/kofejni#tabs-3", target: "_blank"} пр. Художников
-      -#     скидка 20% на весь алкоголь и бодрящие напитки!
-      -# .news_block.big
-      -#   %p.news_date 30.10.2013
-      -#   %h3 Предлагаем Вашему вниманию линейку наших десертов.
-      -#   %p
-      -#     В наших кофейнях на
-      -#     %a{href: "/kofejni#tabs-3", target: "_blank"} Художников, 14
-      -#     и
-      -#     %a{href: "/kofejni#tabs-2", target: "_blank"} Невский, 48
-      -#     появился ассортимент чудеснейших пирожных.
-      -#     %br
-      -#     %br
-      -#     Принцип, лежащий в основе их приготовления - гармоничное сочетание натуральных ингредиентов и ручное исполнение. Никаких усилителей вкуса, продуктов с ГМО и прочих достижений химической промышленности мы не используем. Эти рецепты уходят корнями в далекое прошлое. А сами десерты обладают неповторимым и надолго запоминающимся вкусом.
-      -#   %br
-      -#   %a.highslide{href: "images/cakes/cake_sezam.jpg", onclick: "return hs.expand(this, { slideshowGroup: 'gallery03' } )"}
-      -#     %img{alt: "Highslide JS", height: "74px", src: "images/cakes/cake_sezam.jpg", title: "Click to enlarge", width: "74px"}
-      -#   %a.highslide{href: "images/cakes/cake_sankandi.jpg", onclick: "return hs.expand(this, { slideshowGroup: 'gallery03' } )"}
-      -#     %img{alt: "Highslide JS", height: "74px", src: "images/cakes/cake_sankandi.jpg", title: "Click to enlarge", width: "74px"}
-      -#   %a.highslide{href: "images/cakes/cake_toffi.jpg", onclick: "return hs.expand(this, { slideshowGroup: 'gallery03' } )"}
-      -#     %img{alt: "Highslide JS", height: "74px", src: "images/cakes/cake_toffi.jpg", title: "Click to enlarge", width: "74px"}
-      -#   %a.highslide{href: "images/cakes/cake_muskat.jpg", onclick: "return hs.expand(this, { slideshowGroup: 'gallery03' } )"}
-      -#     %img{alt: "Highslide JS", height: "74px", src: "images/cakes/cake_muskat.jpg", title: "Click to enlarge", width: "74px"}
-      -#   %a.highslide{href: "images/cakes/cake_dvarka.jpg", onclick: "return hs.expand(this, { slideshowGroup: 'gallery03' } )"}
-      -#     %img{alt: "Highslide JS", height: "74px", src: "images/cakes/cake_dvarka.jpg", title: "Click to enlarge", width: "74px"}
-      -#   %a.highslide{href: "images/cakes/cake_chernika.jpg", onclick: "return hs.expand(this, { slideshowGroup: 'gallery03' } )"}
-      -#     %img{alt: "Highslide JS", height: "74px", src: "images/cakes/cake_chernika.jpg", title: "Click to enlarge", width: "74px"}
-      -# .news_block
-      -#   %p.news_date 07.10.2013
-      -#   %h3 Осенние предложения!
-      -#   %a.highslide{href: "images/kof/vla_gourmet.jpg", onclick: "return hs.expand(this, { slideshowGroup: 'gallery02' } )"}
-      -#     %img{alt: "Highslide JS", src: "images/kof/vla_gourmet_news.jpg", title: "Click to enlarge", width: "220px"}
-      -#   %p
-      -#     В наших кофейнях
-      -#     %a{href: "/kofejni#tabs-4", target: "_blank"} Владимирский, 15
-      -#     и
-      -#     %a{href: "/kofejni#tabs-6", target: "_blank"} Марата, 86
-      -#     появились новые предложения.
-      -#     %br
-      -#     %a.highslide{href: "images/kof/vla_alko.jpg", onclick: "return hs.expand(this, { slideshowGroup: 'gallery02' } )"}
-      -#       %img{alt: "Highslide JS", height: "74px", src: "images/kof/vla_alko_small.jpg", title: "Click to enlarge", width: "74px"}
-      -#     %a.highslide{href: "images/kof/vla_vegetables.jpg", onclick: "return hs.expand(this, { slideshowGroup: 'gallery02' } )"}
-      -#       %img{alt: "Highslide JS", height: "74px", src: "images/kof/vla_vegetables_small.jpg", title: "Click to enlarge", width: "74px"}
-      -#     %a.highslide{href: "images/kof/vla_autumn.jpg", onclick: "return hs.expand(this, { slideshowGroup: 'gallery02' } )"}
-      -#       %img{alt: "Highslide JS", height: "74px", src: "images/kof/vla_autumn_small.jpg", title: "Click to enlarge", width: "74px"}
-      -# .news_block
-      -#   %p.news_date 28.03.2013
-      -#   %h3 Инжир в молочном шоколаде!
-      -#   %a.highslide{href: "images/injir_03.jpg", onclick: "return hs.expand(this, { slideshowGroup: 'gallery01' } )"}
-      -#     %img{alt: "Highslide JS", src: "images/injir_small_03.jpg", title: "Click to enlarge", width: "220px"}
-      -#   %p
-      -#     Теперь у нас Вы можете насладиться наивкуснейшими конфетами из отборного инжира с Западной Испании!
-      -#     Приходите попробовать, не пожалеете!
-      -#     %br
-      -#     %a.highslide{href: "images/injir_01.jpg", onclick: "return hs.expand(this, { slideshowGroup: 'gallery01' } )"}
-      -#       %img{alt: "Highslide JS", height: "74px", src: "images/injir_01.jpg", title: "Click to enlarge", width: "74px"}
-      -# .news_block
-      -#   %p.news_date 21.03.2013
-      -#   %h3 Постное меню!
-      -#   %a.highslide{href: "images/akcii_vladimir_post_01.jpg", onclick: "return hs.expand(this, { slideshowGroup: 'gallery01' } )"}
-      -#     %img{alt: "Highslide JS", src: "images/akcii_vladimir_post_small_01.jpg", title: "Click to enlarge", width: "220px"}
-      -#   %p
-      -#     В кофейне на
-      -#     %a{href: "/kofejni#tabs-4", target: "_blank"} Владимирском, 15
-      -#     %br
-      -#     появилось "Постное меню" из свежих салатов и овощных супов!
-      -#     %br
-      -#     %a.highslide{href: "images/akcii_vladimir_post_02.jpg", onclick: "return hs.expand(this, { slideshowGroup: 'gallery01' } )"}
-      -#       %img{alt: "Highslide JS", height: "74px", src: "images/akcii_vladimir_post_02.jpg", title: "Click to enlarge", width: "74px"}
-      -# .news_block
-      -#   %p.news_date 07.03.2013
-      -#   %h3 Международный Женский День!
-      -#   %a.highslide{href: "images/akcii_vladimir.jpg", onclick: "return hs.expand(this, { slideshowGroup: 'gallery01' } )"}
-      -#     %img{alt: "Highslide JS", src: "images/akcii_vladimir_small.jpg", title: "Click to enlarge", width: "220px"}
-      -#   %p
-      -#     8, 9 и 10-го Марта Всем Дамам мы дарим сладкий комплимент!
-      -#     = succeed "\u{410}" do
-      -#       %br
-      -# .news_block
-      -#   %p.news_date 13.02.2013
-      -#   %h3 До Дня Святого Валентина осталось совсем чуть-чуть!
-      -#   %a.highslide{href: "images/news_valentinka.jpg", onclick: "return hs.expand(this, { slideshowGroup: 'gallery01' } )"}
-      -#     %img{alt: "Highslide JS", src: "images/news_valentinka_small.jpg", title: "Click to enlarge", width: "220px"}
-      -#   %p Кофейный Дом Гурме подготовил для вас маленький  сладкий сюрприз два мини-пирожных «Deligh-Валентинка» в форме сердца, которыми Вы можете порадовать себя и своих близких. Цена 1 сладкой валентинки- 30 руб
-      -# .news_block
-      -#   %p.news_date с 01.02.2013 по 01.04.2012
-      -#   %h3 Семейные посиделки в Кофейном Доме Гурме
-      -#   %a.highslide{href: "images/all_big.jpg", onclick: "return hs.expand(this, { slideshowGroup: 'gallery01' } )"}
-      -#     %img{alt: "Highslide JS", src: "images/all_small.jpg", title: "Click to enlarge", width: "220px"}
-      -#   %p
-      -#     Дорогие гости, приглашаем Вас на наши мероприятия, мастер классы, творческие вечеринки, утренники
-      -#     и просто в уютную атмосферу наших кофеен!
-      -# .news_block
-      -#   %p.news_date с 01.02.2013 по 01.04.2012
-      -#   %h3 Покажи 5-ку и получи чашку кофе в подарок!
-      -#   %a.highslide{href: "images/a5_big.jpg", onclick: "return hs.expand(this, { slideshowGroup: 'gallery01' } )"}
-      -#     %img{alt: "Highslide JS", src: "images/a5_small.jpg", title: "Click to enlarge", width: "220px"}
-      -#   %p Новая акция для всех учащихся. Покажите нам хорошие оценки и мы подарим Вам чашечку горячего кофе.
-      -# .news_block
-      -#   %p.news_date 26.01.2013; 27.01.2013
-      -#   %h3 Мастер-классы от нашего лучшего специалиста!
-      -#   %a.highslide{href: "images/master_big.jpg", onclick: "return hs.expand(this, { slideshowGroup: 'gallery01' } )"}
-      -#     %img{alt: "Highslide JS", src: "images/master_small.jpg", title: "Click to enlarge", width: "220px"}
-      -#   %p ВХОД СВОБОДНЫЙ

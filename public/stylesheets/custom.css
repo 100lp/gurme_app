@@ -6,8 +6,24 @@
 li#for_vending {background: none; border: none; padding: 10px 0;}
 .vending_content {}
 
+#vending_img {
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
 #vending_img img {
-  width: 703px;
+  border: none;
+  box-shadow: none;
+  float: right;
+}
+
+#vending_img img:last-child {
+  margin-right: 30px;
+}
+
+#vending_img .text2 {
+  float: left;
+  width: 400px;
 }
 
 .after-tabs {
@@ -152,8 +168,12 @@ p.news_date {color:#999; font-size:12px; font-style: normal; font-weight: normal
 .article_footer {
   border-top: 2px solid #D2C5B4;
   color: #339933;
+  font-weight: bold;
   padding: 10px 0 0 0px;
   margin-top: 25px;
+}
+.article_footer .pull-right {
+  text-align: right;
 }
 .text3 {text-align:left;  padding: 0 0 0 3px; font-size:12px; color: #8B7E66; font-family: Verdana;}
 .email {font-size: 14px;}
@@ -376,7 +396,7 @@ header img {
 }
 
 #left a {
-  color: #2CB732;
+  color: #339933;
   text-decoration: none;
   font-size: 12px;
   font-weight: bold;
