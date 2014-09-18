@@ -1,6 +1,8 @@
 .dop-content2
   #tabs
     %ul
+      %li#for_vending
+        %h2 Санкт-Петербург
       %li
         %a{:href => "#tabs-2"} Невский пр., 48
       %li
@@ -13,8 +15,15 @@
         %a{:href => "#tabs-1"} Чкаловский пр., 11
       %li
         %a{:href => "#tabs-3"} пр. Художников, 14
+      %li#for_vending
+        %h2 Ростов-на-Дону
       %li
-        %a{:href => "#tabs-4"} г. Ростов-на-Дону
+        %a{:href => "#tabs-4"} ул. Большая Садовая, 34а
+      %li#for_vending
+        %h2 Москва
+      %li
+        %a{:href => "#tabs-9"}
+          Скоро открытие
     #tabs-1
       = render 'layouts/yandex_01'
     #tabs-2
@@ -29,5 +38,7 @@
       = render 'layouts/yandex_04'
     #tabs-7
       = render 'layouts/yandex_07'
+    #tabs-9
+      =render 'layouts/yandex_09'
 
   = render 'layouts/dop-footer'
