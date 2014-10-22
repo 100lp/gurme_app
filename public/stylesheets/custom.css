@@ -202,6 +202,30 @@ p.news_date {color:#999; font-size:12px; font-style: normal; font-weight: normal
 .dop-content2 {margin: 0px 0 0 0; float: right; width: 706px;}
 .dop-content2 #tabs a {}
 
+.dop-content2.vending p { 
+  text-align: center; margin-bottom: 10px;
+  font-weight: bold; font-size: 18px; 
+}
+
+.dop-content2.vending .text {
+  margin-top: 10px;
+}
+
+.dop-content2.vending .text b {
+  text-decoration: underline;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.dop-content2.vending .text strong {
+  font-size: 16px;
+}
+
+.dop-content2.vending .text p { 
+  text-align: left; margin-bottom: 0; 
+  font-size: 14px; font-weight: normal;
+}
+
 #kofe .dop-content2 img { border: none;}
 #kofe .dop-content2 a img {border: 1px solid #FFFFFF; }
 .dop-content2 img {
@@ -216,6 +240,9 @@ p.news_date {color:#999; font-size:12px; font-style: normal; font-weight: normal
 .dop-content3 {margin: 10px 0 0 40px; float: left; width: 700px;}
 .dop-content4 {margin: 0px 0 0 0; float: right; width: 706px;}
 .dop-content4 a:hover {color:#ff0000;}
+
+
+
 .ui-content {
   background: url("/images/tabs_03.png") repeat scroll 0 0 transparent;
   border-bottom-right-radius: 4px;
