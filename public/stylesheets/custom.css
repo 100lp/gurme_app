@@ -60,7 +60,15 @@ li#for_vending {background: none; border: none; padding: 10px 0;}
   max-width: 150px;
 }
 
-.vending_table td:nth-child(3) {
+.vending_table td:last-child img {
+  margin-top: 5px;
+}
+
+.vending_table td:last-child img:hover {
+  opacity: 0.8;
+}
+
+.vending_table td:last-child {
   padding: 0;
 }
 
