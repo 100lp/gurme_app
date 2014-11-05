@@ -60,6 +60,17 @@ li#for_vending {background: none; border: none; padding: 10px 0;}
   max-width: 150px;
 }
 
+.vending_table td:nth-child(3) {
+  padding: 0;
+}
+
+.vending_table td a.highslide img { 
+  width: 60px;
+  height: 90px;
+  border: none;
+  box-shadow: none;
+}
+
 .entry {display: none;}
 .post {
   padding: 0;
@@ -231,6 +242,10 @@ p.news_date {color:#999; font-size:12px; font-style: normal; font-weight: normal
 .dop-content2.vending .text p { 
   text-align: left; margin-bottom: 0; 
   font-size: 14px; font-weight: normal;
+}
+
+.dop-content2.vending .pricekofe {
+  text-align: right;
 }
 
 #kofe .dop-content2 img { border: none;}

@@ -15,19 +15,26 @@
     %br
     Вопреки росту курса доллара!
   %table.vending_table{border: "1", rules: "all"}
-    / %thead
-    /   %tr
-    /     %th Смеси из зернового кофе
-    /     %th Цена (1 кг)
     %tr
       %td Смесь "Крепкая"" (робуста 100%)
       %td 230 рублей/кг
+      %td
+        = link_to 'images/pachka_extra.jpg', class: 'highslide', onclick: "return hs.expand(this, { slideshowGroup: 'gallery09' } )" do
+          = image_tag 'pachka_extra.jpg', title: "Нажмите для увеличения"
     %tr
       %td Espresso BAR (арабика с робуста: 20% - 80%)
       %td 240 рублей/кг
+      %td
+        = link_to 'images/pachka_extra.jpg', class: 'highslide', onclick: "return hs.expand(this, { slideshowGroup: 'gallery09' } )" do
+          = image_tag 'pachka_extra.jpg'
     %tr
       %td Espresso EXTRA (арабика и робуста: 40% - 60%)
       %td 270 рублей/кг
+      %td
+        = link_to 'images/pachka_gold.jpg', class: 'highslide', onclick: "return hs.expand(this, { slideshowGroup: 'gallery09' } )" do
+          = image_tag 'pachka_gold.jpg'
+
+  = render 'layouts/price'
 
   .text
     %b Важно:
